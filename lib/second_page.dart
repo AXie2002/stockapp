@@ -30,7 +30,7 @@ class _MySecondPageState extends State<MySecondPage> {
         fit: StackFit.expand,
         children: [
           Container(
-            margin: EdgeInsets.only(top: 90),
+            margin: EdgeInsets.only(top: 100),
             child: Column(
               children: [
                 Icon(
@@ -180,6 +180,7 @@ class _MySecondPageState extends State<MySecondPage> {
       axisAlignment: isPortrait ? 0.0 : -1.0,
       openAxisAlignment: 0.0,
       width: isPortrait ? 600 : 500,
+      height: 60,
       debounceDelay: const Duration(milliseconds: 500),
       onQueryChanged: (query) {
         // Call your model, bloc, controller here.
